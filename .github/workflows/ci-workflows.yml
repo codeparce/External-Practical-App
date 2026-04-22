@@ -9,7 +9,7 @@ on:
 jobs:
   init:
     name: CI Workflow
-    uses: codeparce/ci-workflows/.github/workflows/pipelines/init-node.yml@v1
+    uses: codeparce/ci-workflows/.github/workflows/init-node.yml@v1
     with:
       node-version: 24
     secrets: inherit
