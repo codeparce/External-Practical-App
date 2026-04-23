@@ -9,7 +9,7 @@ on:
 jobs:
   init:
     name: CI Workflow
-    uses: codeparce/ci-workflows/.github/workflows/front-node.yml@v1
+    uses: codeparce/ci-workflows/.github/workflows/pipeline.node.swa.yml@v1
     with:
       type: front
       cloud: azure
